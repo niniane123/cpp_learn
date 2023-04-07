@@ -1,16 +1,10 @@
 cmake_minimum_required(VERSION 3.22)
 project(cpp_learn)
-# 获取cpp文件相对于当前工作路径的相对路径，即文件名
-# 工作路径${CMAKE_CURRENT_SOURCE_DIR}就是CMakeList.txt所在的文件夹
-file(GLOB files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} *.cpp)
-# 遍历每个文件名
-foreach (file ${files})
-    # 将去掉后缀的文件名存入exe变量（executable的缩写，不是代表.exe）
-    string(REGEX REPLACE "(.+).cpp$" "\\1" exe ${file})
-    # 分别生成add_executable(<name> <source>)命令
-    add_executable(${exe} ${file})
-endforeach ()
-
 set(CMAKE_CXX_STANDARD 11)
 add_executable(const_learn variable/const_learn.cpp variable)
 add_executable(nameing_rules variable/nameing_rules.cpp)
+add_executable(calculate io/calculate.cpp)
+add_executable(input2 io/input2.cpp)
+add_executable(increase_decrease io/increase_decrease.cpp)
+add_executable(assignment_operators "io/assignment_ operators.cpp")
+add_executable(variable_initial io/variable_initial.cpp)
