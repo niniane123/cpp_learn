@@ -12,3 +12,4 @@ foreach (file ${files})
 endforeach ()
 
 set(CMAKE_CXX_STANDARD 11)
+add_executable(const_learn variable/const_learn.cpp)
