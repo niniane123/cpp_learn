@@ -1,10 +1,13 @@
-
-#include <iostream>
-
-using namespace std;
+#include <cstdio>
 
 int main() {
-    cout << "float���ͣ�" << sizeof(float) << endl;
-    cout << "double���ͣ�" << sizeof(double) << endl;
-    cout << "long double���ͣ�" << sizeof(long double) << endl;
+    double x = 1.234567890123456789;
+
+    // 默认情况下只显示6位有效数字。
+    printf("%f\n", x); // 输出: 1.234568
+
+    // 可以使用%.16f来显示16位有效数字。
+    printf("%.17f\n", x); // 输出: 1.2345678901234567
+
+    return 0;
 }
