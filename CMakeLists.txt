@@ -14,3 +14,4 @@ add_executable(start function/headers_cpp/source/start.cpp function/headers_cpp/
 add_executable(sizeofLearn function/sizeofLearn.cpp)
 add_executable(floatsize function/floatsize.cpp)
 add_executable(charDemo function/charDemo.cpp)
+add_executable(string_learn function/string_learn.cpp)

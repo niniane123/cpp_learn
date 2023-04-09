@@ -8,5 +8,5 @@
 using namespace std;
 
 void sayHello() {
-    cout << "boys say hello;" << endl;
+    cout << "boys sayh ello;" << endl;
 }
