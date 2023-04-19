@@ -32,6 +32,4 @@ void readValue(const int *a, const int *b) {
     int c = 123;
     a = &c;
     cout << "cµÄÖµÎª" << *a << endl;
-
-
 }
