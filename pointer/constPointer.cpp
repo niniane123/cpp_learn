@@ -4,7 +4,7 @@
 #include <iostream>
 #include <stdio.h>
 
-//宏常量的命名一般用大写
+//宏常量的命名一般用大写  常量指针是一个指针，只不过它指向的对象是一个不可以通过解引用修改的常量
 using namespace std;
 
 
