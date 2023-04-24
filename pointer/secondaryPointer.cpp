@@ -19,6 +19,6 @@ int main() {
 
     int **ppi = &pi;
     //ppi的值应该是pi的内存地址
-    //解引用，那就是pi的值，即pi指针存放的i的地址变量 pi的值为0x3f523ff67c  指针ppi的解引用为0x3f523ff67c
+    //解引用，那就是pi的值（因为ppi指向的是pi的内存地址，pi的值是i的内存地址即0x49e8dffcfc)
     cout << "ppi的值为" << ppi << " 指针ppi的解引用为" << *ppi << " ppi的地址为" << &ppi << endl;
 }
