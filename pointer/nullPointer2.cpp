@@ -17,5 +17,5 @@ int main() {
     int *number = new int(10);
     string *message = new string("I am happy");
     showMessage(number, message);
-    return 1;
+//    return 1;
 }
