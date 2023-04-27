@@ -1,6 +1,8 @@
 //
 // Created by Niniane on 2023/4/26.
 //本例中的代码利用函数指针实现模板方法设计模式
+
+//使用函数指针一般都是用作函数回调
 //
 
 #include <iostream>
